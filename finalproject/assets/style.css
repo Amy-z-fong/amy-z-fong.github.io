@@ -1,0 +1,292 @@
+html {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#about{
+  position: fixed;
+  top: 1vh;
+  left: 81%;
+  z-index: 1;
+  width: 50vw;
+  height: 18%;
+  font-size: 10vh;
+  color: white;
+
+}
+
+#about:hover{
+  position: fixed;
+  top: 1vh;
+  left: 81%;
+  z-index: 1;
+  width: 50vw;
+  height: 18%;
+  font-size: 10vh;
+  color: #5389b5;
+
+}
+#name {
+  position: fixed;
+  top: 1vh;
+  left: 10px;
+  z-index: 1;
+  width: 40vw;
+  height: 18%;
+  font-size: 10vh;
+  color:  #5389b5;
+}
+
+#name:hover {
+  position: fixed;
+  top: 1vh;
+  left: 10px;
+  z-index: 1;
+  width: 40vw;
+  height: 18%;
+  font-size: 10vh;
+  color:  white;
+}
+
+#options {
+  display: inline-block;
+  float: right;
+  padding-left: 100px;
+}
+
+body{
+      margin: 0px;
+			font-family: 'Trebuchet MS', serif;
+			line-height: 1.6
+		}
+
+a:link {
+  text-decoration: none;
+  font-size: 12vh;
+  color: #5389b5;
+  /*-webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;*/
+  display: inline-block;
+}
+
+a:visited {
+    text-decoration: none;
+    font-size: 12vh;
+    color: #5389b5;
+    /*-webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;*/
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#map-container{
+  position: fixed;
+  top: 25vh;
+	width: 900px;
+  left: 15vw;
+
+}
+
+#about-container{
+  position: fixed;
+  top: 25vh;
+	width: 900px;
+  left: 15vw;
+  background-color: rgba(255,255,255,0.7);
+  color: #5389b5;
+  padding: 10px;
+  display: none;
+}
+
+#map-image{
+  position: relative;
+}
+
+
+
+#world-map{
+  width: 100%; /* or any custom size */
+  object-fit: contain;
+  filter: brightness(0) invert(1) opacity(0.8);
+  margin: auto;
+}
+
+#amy-pic{
+  height: auto;
+  width: 30%;
+  border-radius: 600px;
+}
+
+.carousel-pic{
+  /*width: 550px;
+  margin: 0 auto;
+  height: auto;*/
+  position: absolute;
+  width: 500px;
+    top: 28%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+.section{
+  position: fixed;
+  /*top: 20vh;*/
+  top: 5vh;
+	width: 900px;
+  left: 15vw;
+}
+
+.carousel-container{
+	width: 960px;
+	margin: auto;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+#carousel{
+	width: 4800px;
+	height: 100%;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.carousel-item{
+	width: 960px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+.quote, .text {
+	position: absolute;
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Styling for the author text in each quote */
+.author {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/*LOS ANGELES*/
+#modal-overlay-los-angeles {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-container-los-angeles{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+#los-angeles{
+  position: absolute;
+  left: 18%;
+  bottom:59%;
+  cursor: pointer;
+}
+
+/*DC*/
+#modal-overlay-DC {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-container-DC{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+#DC{
+  position: absolute;
+  left: 29%;
+  bottom:60%;
+  cursor: pointer;
+}
+
+.element-hovered{
+  width: 30px;
+  height: auto;
+}
+
+.name-hovered{
+  color: white;
+}
+
+.about-hovered{
+  color: #5389b5;
+}
